@@ -14,7 +14,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 var _this = undefined,
-    _jsxFileName = "/Users/jamesgu/github/personal/melanholic/nextjs-blog/components/head-metadata.js";
+    _jsxFileName = "/Users/jamesgu/github/personal/melanholic/frontend/components/head-metadata.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -95,7 +95,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_utils_module_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/utils.module.scss */ "./styles/utils.module.scss");
 /* harmony import */ var _styles_utils_module_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_scss__WEBPACK_IMPORTED_MODULE_5__);
 var _this = undefined,
-    _jsxFileName = "/Users/jamesgu/github/personal/melanholic/nextjs-blog/components/layout.js";
+    _jsxFileName = "/Users/jamesgu/github/personal/melanholic/frontend/components/layout.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -774,7 +774,7 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".layout_container__3sC0E {\n  max-width: 36rem;\n  padding: 0 1rem;\n  margin: 3rem auto 6rem;\n}\n\n.layout_header__3KufH {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.layout_headerImage__1Y87s {\n  width: 6rem;\n  height: 6rem;\n}\n\n.layout_headerHomeImage__3PnC4 {\n  width: 8rem;\n  height: 8rem;\n}\n\n.layout_backToHome__3Z5L9 {\n  margin: 3rem 0 0;\n}", "",{"version":3,"sources":["/Users/jamesgu/github/personal/melanholic/nextjs-blog/components/layout.module.scss"],"names":[],"mappings":"AAAA;EACI,gBAAA;EACA,eAAA;EACA,sBAAA;AACJ;;AAEA;EACI,aAAA;EACA,sBAAA;EACA,mBAAA;AACJ;;AAEA;EACI,WAAA;EACA,YAAA;AACJ;;AAEA;EACI,WAAA;EACA,YAAA;AACJ;;AAEA;EACI,gBAAA;AACJ","file":"layout.module.scss","sourcesContent":[".container {\n    max-width: 36rem;\n    padding: 0 1rem;\n    margin: 3rem auto 6rem;\n}\n  \n.header {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n  \n.headerImage {\n    width: 6rem;\n    height: 6rem;\n}\n  \n.headerHomeImage {\n    width: 8rem;\n    height: 8rem;\n}\n  \n.backToHome {\n    margin: 3rem 0 0;\n}"]}]);
+exports.push([module.i, ".layout_container__3sC0E {\n  max-width: 36rem;\n  padding: 0 1rem;\n  margin: 3rem auto 6rem;\n}\n\n.layout_header__3KufH {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.layout_headerImage__1Y87s {\n  width: 6rem;\n  height: 6rem;\n}\n\n.layout_headerHomeImage__3PnC4 {\n  width: 8rem;\n  height: 8rem;\n}\n\n.layout_backToHome__3Z5L9 {\n  margin: 3rem 0 0;\n}", "",{"version":3,"sources":["/Users/jamesgu/github/personal/melanholic/frontend/components/layout.module.scss"],"names":[],"mappings":"AAAA;EACI,gBAAA;EACA,eAAA;EACA,sBAAA;AACJ;;AAEA;EACI,aAAA;EACA,sBAAA;EACA,mBAAA;AACJ;;AAEA;EACI,WAAA;EACA,YAAA;AACJ;;AAEA;EACI,WAAA;EACA,YAAA;AACJ;;AAEA;EACI,gBAAA;AACJ","file":"layout.module.scss","sourcesContent":[".container {\n    max-width: 36rem;\n    padding: 0 1rem;\n    margin: 3rem auto 6rem;\n}\n  \n.header {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n  \n.headerImage {\n    width: 6rem;\n    height: 6rem;\n}\n  \n.headerHomeImage {\n    width: 8rem;\n    height: 8rem;\n}\n  \n.backToHome {\n    margin: 3rem 0 0;\n}"]}]);
 // Exports
 exports.locals = {
 	"container": "layout_container__3sC0E",
@@ -795,7 +795,7 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".utils_heading2Xl__16Gb4 {\n  font-size: 2.5rem;\n  line-height: 1.2;\n  font-weight: 800;\n  letter-spacing: -0.05rem;\n  margin: 1rem 0;\n}\n\n.utils_headingXl__3wKvI {\n  font-size: 2rem;\n  line-height: 1.3;\n  font-weight: 800;\n  letter-spacing: -0.05rem;\n  margin: 1rem 0;\n}\n\n.utils_headingLg__3uZpz {\n  font-size: 1.5rem;\n  line-height: 1.4;\n  margin: 1rem 0;\n}\n\n.utils_headingMd___QbOh {\n  font-size: 1.2rem;\n  line-height: 1.5;\n}\n\n.utils_borderCircle__16bu1 {\n  border-radius: 9999px;\n}\n\n.utils_colorInherit__rOQns {\n  color: inherit;\n}\n\n.utils_padding1px__36ceH {\n  padding-top: 1px;\n}\n\n.utils_list__2y256 {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n}\n\n.utils_listItem__2TaGU {\n  margin: 0 0 1.25rem;\n}\n\n.utils_lightText__3895Y {\n  color: #999;\n}", "",{"version":3,"sources":["/Users/jamesgu/github/personal/melanholic/nextjs-blog/styles/utils.module.scss"],"names":[],"mappings":"AAAA;EACI,iBAAA;EACA,gBAAA;EACA,gBAAA;EACA,wBAAA;EACA,cAAA;AACJ;;AAEA;EACI,eAAA;EACA,gBAAA;EACA,gBAAA;EACA,wBAAA;EACA,cAAA;AACJ;;AAEA;EACI,iBAAA;EACA,gBAAA;EACA,cAAA;AACJ;;AAEA;EACI,iBAAA;EACA,gBAAA;AACJ;;AAEA;EACI,qBAAA;AACJ;;AAEA;EACI,cAAA;AACJ;;AAEA;EACI,gBAAA;AACJ;;AAEA;EACI,gBAAA;EACA,UAAA;EACA,SAAA;AACJ;;AAEA;EACI,mBAAA;AACJ;;AAEA;EACI,WAAA;AACJ","file":"utils.module.scss","sourcesContent":[".heading2Xl {\n    font-size: 2.5rem;\n    line-height: 1.2;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n}\n  \n.headingXl {\n    font-size: 2rem;\n    line-height: 1.3;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n}\n  \n.headingLg {\n    font-size: 1.5rem;\n    line-height: 1.4;\n    margin: 1rem 0;\n}\n  \n.headingMd {\n    font-size: 1.2rem;\n    line-height: 1.5;\n}\n  \n.borderCircle {\n    border-radius: 9999px;\n}\n  \n.colorInherit {\n    color: inherit;\n}\n  \n.padding1px {\n    padding-top: 1px;\n}\n  \n.list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n}\n  \n.listItem {\n    margin: 0 0 1.25rem;\n}\n  \n.lightText {\n    color: #999;\n}"]}]);
+exports.push([module.i, ".utils_heading2Xl__16Gb4 {\n  font-size: 2.5rem;\n  line-height: 1.2;\n  font-weight: 800;\n  letter-spacing: -0.05rem;\n  margin: 1rem 0;\n}\n\n.utils_headingXl__3wKvI {\n  font-size: 2rem;\n  line-height: 1.3;\n  font-weight: 800;\n  letter-spacing: -0.05rem;\n  margin: 1rem 0;\n}\n\n.utils_headingLg__3uZpz {\n  font-size: 1.5rem;\n  line-height: 1.4;\n  margin: 1rem 0;\n}\n\n.utils_headingMd___QbOh {\n  font-size: 1.2rem;\n  line-height: 1.5;\n}\n\n.utils_borderCircle__16bu1 {\n  border-radius: 9999px;\n}\n\n.utils_colorInherit__rOQns {\n  color: inherit;\n}\n\n.utils_padding1px__36ceH {\n  padding-top: 1px;\n}\n\n.utils_list__2y256 {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n}\n\n.utils_listItem__2TaGU {\n  margin: 0 0 1.25rem;\n}\n\n.utils_lightText__3895Y {\n  color: #999;\n}", "",{"version":3,"sources":["/Users/jamesgu/github/personal/melanholic/frontend/styles/utils.module.scss"],"names":[],"mappings":"AAAA;EACI,iBAAA;EACA,gBAAA;EACA,gBAAA;EACA,wBAAA;EACA,cAAA;AACJ;;AAEA;EACI,eAAA;EACA,gBAAA;EACA,gBAAA;EACA,wBAAA;EACA,cAAA;AACJ;;AAEA;EACI,iBAAA;EACA,gBAAA;EACA,cAAA;AACJ;;AAEA;EACI,iBAAA;EACA,gBAAA;AACJ;;AAEA;EACI,qBAAA;AACJ;;AAEA;EACI,cAAA;AACJ;;AAEA;EACI,gBAAA;AACJ;;AAEA;EACI,gBAAA;EACA,UAAA;EACA,SAAA;AACJ;;AAEA;EACI,mBAAA;AACJ;;AAEA;EACI,WAAA;AACJ","file":"utils.module.scss","sourcesContent":[".heading2Xl {\n    font-size: 2.5rem;\n    line-height: 1.2;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n}\n  \n.headingXl {\n    font-size: 2rem;\n    line-height: 1.3;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n}\n  \n.headingLg {\n    font-size: 1.5rem;\n    line-height: 1.4;\n    margin: 1rem 0;\n}\n  \n.headingMd {\n    font-size: 1.2rem;\n    line-height: 1.5;\n}\n  \n.borderCircle {\n    border-radius: 9999px;\n}\n  \n.colorInherit {\n    color: inherit;\n}\n  \n.padding1px {\n    padding-top: 1px;\n}\n  \n.list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n}\n  \n.listItem {\n    margin: 0 0 1.25rem;\n}\n  \n.lightText {\n    color: #999;\n}"]}]);
 // Exports
 exports.locals = {
 	"heading2Xl": "utils_heading2Xl__16Gb4",
@@ -1047,10 +1047,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjamesgu%2Fgithub%2Fpersonal%2Fmelanholic%2Fnextjs-blog%2Fpages%2Findex.js!./":
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjamesgu%2Fgithub%2Fpersonal%2Fmelanholic%2Fnextjs-blog%2Fpages%2Findex.js ***!
-  \*************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjamesgu%2Fgithub%2Fpersonal%2Fmelanholic%2Ffrontend%2Fpages%2Findex.js!./":
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjamesgu%2Fgithub%2Fpersonal%2Fmelanholic%2Ffrontend%2Fpages%2Findex.js ***!
+  \**********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5536,7 +5536,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_utils_module_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/utils.module.scss */ "./styles/utils.module.scss");
 /* harmony import */ var _styles_utils_module_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_scss__WEBPACK_IMPORTED_MODULE_4__);
 var _this = undefined,
-    _jsxFileName = "/Users/jamesgu/github/personal/melanholic/nextjs-blog/pages/index.js";
+    _jsxFileName = "/Users/jamesgu/github/personal/melanholic/frontend/pages/index.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -5756,14 +5756,14 @@ if (true) {
 
 /***/ }),
 
-/***/ 1:
-/*!*****************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjamesgu%2Fgithub%2Fpersonal%2Fmelanholic%2Fnextjs-blog%2Fpages%2Findex.js ***!
-  \*****************************************************************************************************************************************************/
+/***/ 2:
+/*!**************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjamesgu%2Fgithub%2Fpersonal%2Fmelanholic%2Ffrontend%2Fpages%2Findex.js ***!
+  \**************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjamesgu%2Fgithub%2Fpersonal%2Fmelanholic%2Fnextjs-blog%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjamesgu%2Fgithub%2Fpersonal%2Fmelanholic%2Fnextjs-blog%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjamesgu%2Fgithub%2Fpersonal%2Fmelanholic%2Ffrontend%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjamesgu%2Fgithub%2Fpersonal%2Fmelanholic%2Ffrontend%2Fpages%2Findex.js!./");
 
 
 /***/ }),
@@ -5779,5 +5779,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

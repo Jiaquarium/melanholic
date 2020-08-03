@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -128,7 +128,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "siteDescription", function() { return siteDescription; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/jamesgu/github/personal/melanholic/nextjs-blog/components/head-metadata.js";
+var _jsxFileName = "/Users/jamesgu/github/personal/melanholic/frontend/components/head-metadata.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const siteTitle = "melanholic";
@@ -205,7 +205,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _layout_module_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_layout_module_scss__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _styles_utils_module_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/utils.module.scss */ "./styles/utils.module.scss");
 /* harmony import */ var _styles_utils_module_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_scss__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/jamesgu/github/personal/melanholic/nextjs-blog/components/layout.js";
+var _jsxFileName = "/Users/jamesgu/github/personal/melanholic/frontend/components/layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2106,7 +2106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_utils_module_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/utils.module.scss */ "./styles/utils.module.scss");
 /* harmony import */ var _styles_utils_module_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_scss__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _lib_posts_data__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../lib/posts-data */ "./lib/posts-data.js");
-var _jsxFileName = "/Users/jamesgu/github/personal/melanholic/nextjs-blog/pages/index.js";
+var _jsxFileName = "/Users/jamesgu/github/personal/melanholic/frontend/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2298,14 +2298,14 @@ module.exports = {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/jamesgu/github/personal/melanholic/nextjs-blog/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/jamesgu/github/personal/melanholic/frontend/pages/index.js */"./pages/index.js");
 
 
 /***/ }),

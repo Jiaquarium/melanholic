@@ -16,7 +16,6 @@ function getAllFileData(fileNames)
             const fullPath = path.join(postsDirectory, fileName);
             return fs.readFile(fullPath, {encoding: 'utf8'}, (err, fileContents) => {
                 // use gray-matter to parse through YAML "front-matter"
-                console.log("fileContents" + fileContents);
                 const matterResult = matter(fileContents);
         
                 // combine the data with Id

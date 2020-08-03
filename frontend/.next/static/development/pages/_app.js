@@ -359,7 +359,7 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, "html,\nbody {\n  padding: 0;\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  line-height: 1.6;\n  font-size: 18px;\n}\n\n* {\n  box-sizing: border-box;\n}\n\na {\n  color: #0070f3;\n  text-decoration: none;\n}\n\na:hover {\n  text-decoration: underline;\n}\n\nimg {\n  max-width: 100%;\n  display: block;\n}", "",{"version":3,"sources":["/Users/jamesgu/github/personal/melanholic/nextjs-blog/styles/global.scss"],"names":[],"mappings":"AAAA;;EAEI,UAAA;EACA,SAAA;EACA,8IAAA;EAEA,gBAAA;EACA,eAAA;AAAJ;;AAGA;EACI,sBAAA;AAAJ;;AAGA;EACI,cAAA;EACA,qBAAA;AAAJ;;AAGA;EACI,0BAAA;AAAJ;;AAGA;EACI,eAAA;EACA,cAAA;AAAJ","file":"global.scss","sourcesContent":["html,\nbody {\n    padding: 0;\n    margin: 0;\n    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,\n        Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n    line-height: 1.6;\n    font-size: 18px;\n}\n\n* {\n    box-sizing: border-box;\n}\n\na {\n    color: #0070f3;\n    text-decoration: none;\n}\n\na:hover {\n    text-decoration: underline;\n}\n\nimg {\n    max-width: 100%;\n    display: block;\n}"]}]);
+exports.push([module.i, "html,\nbody {\n  padding: 0;\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  line-height: 1.6;\n  font-size: 18px;\n}\n\n* {\n  box-sizing: border-box;\n}\n\na {\n  color: #0070f3;\n  text-decoration: none;\n}\n\na:hover {\n  text-decoration: underline;\n}\n\nimg {\n  max-width: 100%;\n  display: block;\n}", "",{"version":3,"sources":["/Users/jamesgu/github/personal/melanholic/frontend/styles/global.scss"],"names":[],"mappings":"AAAA;;EAEI,UAAA;EACA,SAAA;EACA,8IAAA;EAEA,gBAAA;EACA,eAAA;AAAJ;;AAGA;EACI,sBAAA;AAAJ;;AAGA;EACI,cAAA;EACA,qBAAA;AAAJ;;AAGA;EACI,0BAAA;AAAJ;;AAGA;EACI,eAAA;EACA,cAAA;AAAJ","file":"global.scss","sourcesContent":["html,\nbody {\n    padding: 0;\n    margin: 0;\n    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,\n        Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n    line-height: 1.6;\n    font-size: 18px;\n}\n\n* {\n    box-sizing: border-box;\n}\n\na {\n    color: #0070f3;\n    text-decoration: none;\n}\n\na:hover {\n    text-decoration: underline;\n}\n\nimg {\n    max-width: 100%;\n    display: block;\n}"]}]);
 
 
 /***/ }),
@@ -3456,7 +3456,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "/Users/jamesgu/github/personal/melanholic/nextjs-blog/pages/_app.js";
+    _jsxFileName = "/Users/jamesgu/github/personal/melanholic/frontend/pages/_app.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -3552,7 +3552,7 @@ if (true) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./");
-module.exports = __webpack_require__(/*! /Users/jamesgu/github/personal/melanholic/nextjs-blog/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! /Users/jamesgu/github/personal/melanholic/frontend/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ }),
