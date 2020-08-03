@@ -23,7 +23,7 @@ build: install-deps
 prod: build
 	$(BIN)/next start
 
-build-docker: build
+build-docker:
 	docker build --tag melanholic/frontend-melanholic:$(BUILD_VERSION) .
 
 run-docker:
