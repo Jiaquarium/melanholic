@@ -27,4 +27,5 @@ build-docker: build
 	docker build --tag melanholic/frontend-melanholic:$(BUILD_VERSION) .
 
 run-docker:
-	docker run -it test ls /home/node
+	echo "Preparing to run image melanholic/frontend-melanholic:$(BUILD_VERSION)"
+	docker run --name melanholic -detached -p 80:3000 melanholic/frontend-melanholic:$(BUILD_VERSION)

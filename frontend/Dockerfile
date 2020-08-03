@@ -17,18 +17,21 @@ RUN rm -rf /usr/local/lib/node_modules/npm
 RUN mv node_modules/npm /usr/local/lib/node_modules/npm
 
 # Make the working directory folder
-WORKDIR /frontend-melanholic
+WORKDIR /melanholic
 
 # Install dependencies with npm
 COPY *.npmrc package.json package-lock.json /tmp/
 RUN cd /tmp && /usr/local/bin/npm ci
-RUN mv /tmp/node_modules /frontend-melanholic
+RUN mv /tmp/node_modules /melanholic
 
 # Copy all files into working directory
-COPY . /art-portfolio
+COPY . /melanholic
 
 # Expose the port the app runs in
 EXPOSE 8000
 
+# Set entrypoint
+# ENTRYPOINT ["frontend/"]
+
 # Serve the app
-CMD ["/frontend-melanholic/make", "prod"]
+CMD ["make", "prod"]
