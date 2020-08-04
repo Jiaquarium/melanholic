@@ -31,7 +31,7 @@ COPY . /melanholic
 EXPOSE 8000
 
 # Set entrypoint
-# ENTRYPOINT ["frontend/"]
+# ENTRYPOINT [""]
 
 # Serve the app
 CMD ["make", "prod"]
