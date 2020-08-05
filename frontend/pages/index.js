@@ -54,14 +54,21 @@ const Home = ({ allPostsData }) => {
                     </p>
                 </section>
                 <section>
-                    <Link href="/posts/first-post">
-                        <a>first post</a>
-                    </Link>
-                </section>
-                <section>
-                    <Link href="/screen-shots">
-                        <a>screenshots</a>
-                    </Link>
+                    <div>
+                        <Link href="/posts/first-post">
+                            <a>first post</a>
+                        </Link>
+                    </div>
+                    <div>
+                        <Link href="/screen-shots">
+                            <a>screenshots</a>
+                        </Link>
+                    </div>
+                    <div>
+                        <Link href="/posts/all-posts">
+                            <a>all blog posts</a>
+                        </Link>
+                    </div>
                 </section>
                 <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                     <h2 className={utilStyles.headingLg}>Blog</h2>

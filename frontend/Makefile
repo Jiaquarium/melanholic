@@ -1,5 +1,5 @@
 BIN := $(shell pwd)/node_modules/.bin
-BUILD_VERSION ?= 0.0.2 # in the future, handle this with Jenkins
+BUILD_VERSION ?= 0.0.3 # in the future, handle this with Jenkins
 
 clean:
 	rm -rf node_modules/

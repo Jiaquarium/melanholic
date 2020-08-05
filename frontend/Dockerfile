@@ -28,7 +28,7 @@ RUN mv /tmp/node_modules /melanholic
 COPY . /melanholic
 
 # Expose the port the app runs in
-EXPOSE 8000
+EXPOSE 3000
 
 # Set entrypoint
 # ENTRYPOINT [""]
